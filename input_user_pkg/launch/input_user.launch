@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="input_user_pkg" type="input_user.py" name="move_tertilsim" output="screen"/>
+<node pkg="turtlesim" type="turtlesim_node" name="move_robot" output="screen"/>
+</launch>

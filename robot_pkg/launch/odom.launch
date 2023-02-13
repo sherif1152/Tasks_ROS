@@ -1,0 +1,4 @@
+<launch>
+<node pkg="robot_pkg" type="odom_published.py" name="odom_published" output="screen"/>
+<node pkg="robot_pkg" type="odom_subscriber.py" name="odom_subscriber" output="screen"/>
+</launch>
